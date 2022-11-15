@@ -1,8 +1,8 @@
-#include "decoder.h"
+#include "include/decoder.h"
 #include <string>
 std::string decoder(std::string message, int count)
 {
-    for(int i = 0; i < message.length(); ++i)
+    for(unsigned int i = 0; i < message.length(); ++i)
         if ((message[i] >= int('A') && message[i] <= int('Z')) || (message[i] >= int('a') && message[i] <= int('z')))
         {
             count %= 26;

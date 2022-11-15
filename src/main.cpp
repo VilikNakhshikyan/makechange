@@ -1,13 +1,13 @@
-#include "test.h"
-#include "decoder.h"
-#include "encoder.h"
+#include "include/test.h"
+#include "include/decoder.h"
+#include "include/encoder.h"
 #include <iostream>
 #include <string>
 int main()
 {
     test();
-    decoder("barev",3);
-    encoder("barev",3);
+    // decoder("barev",3);
+    // encoder("barev",3);
 //    std::string text;
 //    int count;
 //    std::cout << "Enter text." << std::endl;

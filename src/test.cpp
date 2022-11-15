@@ -1,6 +1,6 @@
-#include "test.h"
-#include "decoder.h"
-#include "encoder.h"
+#include "include/test.h"
+#include "include/decoder.h"
+#include "include/encoder.h"
 #include <iostream>
 #include <string>
 void test()
